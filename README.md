@@ -41,10 +41,6 @@
     </tr>
   </table>
   
-  <br/>
-  <a href="https://leenrabbou.github.io/Invenstore-WMS/">
-    <img src="https://img.shields.io/badge/🚀_Live_Demo-Explore_Web_Version-success?style=for-the-badge" />
-  </a>
 </div>
 
 ---
