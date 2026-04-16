@@ -42,7 +42,7 @@
   </table>
   
   <br/>
-  <a href="https://github.com/leenrabbou/Invenstore-WMS/">
+  <a href="https://leenrabbou.github.io/Invenstore-WMS/">
     <img src="https://img.shields.io/badge/🚀_Live_Demo-Explore_Web_Version-success?style=for-the-badge" />
   </a>
 </div>
@@ -124,6 +124,55 @@ Access the full technical breakdown, including ERD diagrams and system analysis:
 
 - [📂 **View Backend Repository (Laravel)**](https://github.com/AnasAlbalah/WMS)
 - [📂 **Download Full Project Report (PDF)**](docs/Invenstore_Report.pdf)
+
+---
+
+## 🛠️ Technologies Used
+
+| Category             | Technology  | Usage                          |
+| -------------------- | ----------- | ------------------------------ |
+| **Framework**        | Flutter 3.x | Cross-platform UI (Web/Mobile) |
+| **State Management** | Provider    | Logical state & Data flow      |
+| **Real-time**        | Pusher      | Live notifications & Updates   |
+| **Charts**           | fl_chart    | Analytics visualization        |
+| **Localization**     | intl        | Multi-language support (AR/EN) |
+
+---
+
+## 👨‍💻 How to Run the Frontend Projects
+
+### 1. Prerequisites
+
+- Install [Flutter SDK](https://docs.flutter.dev/get-started/install).
+- Ensure the Backend API is running (Base URL: `http://127.0.0.1:8000/api`).
+
+### 2. Setup
+
+Clone the repository and navigate to the project folder:
+
+```bash
+git clone [https://github.com/leen-rabbou/Invenstore-WMS.git](https://github.com/leen-rabbou/Invenstore-WMS.git)
+```
+
+### 3. Run Mobile App
+
+Navigate to the mobile directory, fetch packages, and run:
+
+```bash
+cd InvenStore_mobile/project_1_v2
+flutter pub get
+flutter run
+```
+
+### 4. Run Web Dashboard
+
+Navigate to the web directory and run:
+
+```bash
+cd InvenStore_Web
+flutter pub get
+flutter run -d chrome
+```
 
 ---
 
